@@ -1,0 +1,81 @@
+Category,Bin,Recyclable,Instruction,Tip,Confidence,Item,Timestamp,Raw_Output
+Wet Waste,Green,No,Throw in the green waste bin.,Compost banana peels to enrich soil nutrients.,,banana peel,2026-01-17 20:52:49,"Category: Wet Waste
+Bin: Green
+Recyclable: No
+Instruction: Throw in the green waste bin.
+Tip: Compost banana peels to enrich soil nutrients."
+Dry Waste (Non-Recyclable),Blue,No,Dispose in the blue bin.,Reduce plastic use by opting for reusable bottles.,High,plastic bottle,2026-01-17 20:53:02,"Category: Dry Waste (Non-Recyclable)
+Bin: Blue
+Recyclable: No
+Instruction: Dispose in the blue bin.
+Tip: Reduce plastic use by opting for reusable bottles. 
+Confidence: High"
+Dry Waste (Recyclable),Blue,Yes,Place the empty chip packet in your blue recycling bin.,Rinse out any remaining contents before recycling.,,chips packet,2026-01-17 20:53:15,"Category: Dry Waste (Recyclable)
+Bin: Blue
+Recyclable: Yes
+Instruction: Place the empty chip packet in your blue recycling bin.
+Tip: Rinse out any remaining contents before recycling."
+E-Waste,Red,Yes,Dispose of the battery in a designated e‑waste collection bin.,Consider recycling or donating old batteries to reduce environmental impact.,High,battery,2026-01-17 20:53:28,"Category: E-Waste
+Bin: Red
+Recyclable: Yes
+Instruction: Dispose of the battery in a designated e‑waste collection bin.
+Tip: Consider recycling or donating old batteries to reduce environmental impact. 
+Confidence: High"
+Hazardous Waste,Red,No,Dispose of the used mask in your regular trash bin or place it in a sealed bag before discarding.,Properly dispose of masks to prevent contamination and protect public health.,,used mask,2026-01-17 20:53:43,"Category: Hazardous Waste
+Bin: Red
+Recyclable: No
+Instruction: Dispose of the used mask in your regular trash bin or place it in a sealed bag before discarding.
+Tip: Properly dispose of masks to prevent contamination and protect public health."
+Hazardous Waste,Red,No,Dispose of sanitary pads in the red hazardous waste bin.,Wrap them securely before disposal to prevent leaks and contamination.,,sanitary pad,2026-01-17 20:53:55,"Category: Hazardous Waste
+Bin: Red
+Recyclable: No
+Instruction: Dispose of sanitary pads in the red hazardous waste bin.
+Tip: Wrap them securely before disposal to prevent leaks and contamination."
+Hazardous Waste,Red,No,Dispose of in the hazardous waste bin provided by your municipality.,Keep medicines out of children's reach and follow expiry dates.,,medicine strip,2026-01-17 20:54:06,"Category: Hazardous Waste
+Bin: Red
+Recyclable: No
+Instruction: Dispose of in the hazardous waste bin provided by your municipality.
+Tip: Keep medicines out of children's reach and follow expiry dates."
+Hazardous Waste,Red,No,"Place in a sturdy, puncture-proof container before disposing with regular waste.",Sharps like broken glass should never be placed in recycling bins to avoid injuries.,,broken glass,2026-01-17 20:54:19,"Category: Hazardous Waste
+Bin: Red
+Recyclable: No
+Instruction: Place in a sturdy, puncture-proof container before disposing with regular waste.
+Tip: Sharps like broken glass should never be placed in recycling bins to avoid injuries."
+E-Waste,Yellow,Yes,Place the old mobile phone in the yellow e‑waste bin.,Remove SIM cards and memory sticks before recycling to protect your personal data.,,old mobile phone,2026-01-17 20:54:31,"Category: E-Waste
+Bin: Yellow
+Recyclable: Yes
+Instruction: Place the old mobile phone in the yellow e‑waste bin.
+Tip: Remove SIM cards and memory sticks before recycling to protect your personal data."
+Dry Waste (Recyclable),Blue,Yes,Place in the blue recycling bin.,Flatten cardboard boxes before recycling to save space.,High,cardboard,2026-01-17 20:54:42,"Category: Dry Waste (Recyclable)
+Bin: Blue
+Recyclable: Yes
+Instruction: Place in the blue recycling bin.
+Tip: Flatten cardboard boxes before recycling to save space. 
+Confidence: High"
+E-Waste,Red,Yes,Place the tube light in the red (hazardous) bin.,Consider recycling or donating old electronics to reduce e‑waste.,,tube light,2026-01-17 20:54:54,"Category: E-Waste
+Bin: Red
+Recyclable: Yes
+Instruction: Place the tube light in the red (hazardous) bin.
+Tip: Consider recycling or donating old electronics to reduce e‑waste."
+Dry Waste (Recyclable),Blue,Yes,Place the aluminum can in the blue recycling bin.,Rinse out any remaining liquid before recycling to ensure cleanliness.,High,aluminium can,2026-01-17 20:55:07,"Category: Dry Waste (Recyclable)
+Bin: Blue
+Recyclable: Yes
+Instruction: Place the aluminum can in the blue recycling bin.
+Tip: Rinse out any remaining liquid before recycling to ensure cleanliness. 
+Confidence: High"
+Wet Waste,Green,No,Dispose of food leftovers in the wet waste bin.,Compost your food scraps to reduce landfill impact.,,food leftover,2026-01-17 20:55:18,"Category: Wet Waste
+Bin: Green
+Recyclable: No
+Instruction: Dispose of food leftovers in the wet waste bin.
+Tip: Compost your food scraps to reduce landfill impact."
+Dry Waste (Non-Recyclable),Red,No,Dispose of thermocol in the red hazardous waste bin.,Consider using reusable alternatives to reduce plastic usage.,Medium,thermocol,2026-01-17 20:55:30,"Category: Dry Waste (Non-Recyclable)
+Bin: Red
+Recyclable: No
+Instruction: Dispose of thermocol in the red hazardous waste bin.
+Tip: Consider using reusable alternatives to reduce plastic usage. 
+Confidence: Medium"
+Hazardous Waste,Red,No,Dispose of paint containers at a designated hazardous waste facility.,Never mix paint with regular household waste.,,paint container,2026-01-17 20:55:40,"Category: Hazardous Waste
+Bin: Red
+Recyclable: No
+Instruction: Dispose of paint containers at a designated hazardous waste facility.
+Tip: Never mix paint with regular household waste."
