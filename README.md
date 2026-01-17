@@ -103,6 +103,7 @@ Structured Output (Category + Bin + Tips)
         ↓
 History + Analytics + CSV Download
 
+````md
 # ♻️ Smart Waste Segregation Assistant  
 ### IBM Granite + Ollama + Streamlit | SDG 12 Sustainability Project
 
@@ -127,92 +128,103 @@ Download and install Ollama.
 Check:
 ```bash
 ollama --version
+````
 
+---
 
-✅ 2) Download Granite Model
+### ✅ 2) Download Granite Model
+
+```bash
 ollama pull granite4
-
+```
 
 Verify:
 
+```bash
 ollama list
+```
 
-✅ 3) Install Dependencies
+---
+
+### ✅ 3) Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-✅ 4) Run the App
+---
+
+### ✅ 4) Run the App
+
+```bash
 streamlit run app.py
+```
 
-🧪 Example Inputs
+---
+
+## 🧪 Example Inputs
 
 Try these items in the UI:
 
-banana peel
+* banana peel
+* plastic bottle
+* chips packet
+* used mask
+* battery
+* medicine strip
+* tube light
+* old mobile phone
+* broken glass
+* cardboard
 
-plastic bottle
+---
 
-chips packet
+## 📌 Sample Output
 
-used mask
-
-battery
-
-medicine strip
-
-tube light
-
-old mobile phone
-
-broken glass
-
-cardboard
-
-📌 Sample Output
+```text
 Category: Wet Waste
 Bin: Green
 Recyclable: No
 Instruction: Place the banana peel in the green bin for composting.
 Tip: Composting reduces landfill waste and methane emissions.
 Confidence: High
+```
 
-🛡️ Responsible AI Considerations
+---
+
+## 🛡️ Responsible AI Considerations
 
 This project follows responsible AI practices:
 
-🔒 Privacy: No personal user data is collected
+* 🔒 **Privacy:** No personal user data is collected
+* 🔍 **Transparency:** Clear category + bin mapping is provided
+* ⚠️ **Safety:** Hazardous and e-waste include safe handling instructions
+* 📍 **Limitations:** Local disposal rules may vary; low confidence suggests checking municipal rules
+* ⚖️ **Fairness:** Outputs are general and do not target any group unfairly
 
-🔍 Transparency: Clear category + bin mapping is provided
+---
 
-⚠️ Safety: Hazardous and e-waste include safe handling instructions
-
-📍 Limitations: Local disposal rules may vary; low confidence suggests checking municipal rules
-
-⚖️ Fairness: Outputs are general and do not target any group unfairly
-
-📈 Expected Impact
+## 📈 Expected Impact
 
 If used in homes/hostels/campuses, this assistant can:
 
-Improve correct waste segregation habits
+* Improve correct waste segregation habits
+* Increase recycling efficiency
+* Reduce landfill waste and pollution
+* Improve sanitation worker safety
+* Promote sustainability awareness
 
-Increase recycling efficiency
+---
 
-Reduce landfill waste and pollution
-
-Improve sanitation worker safety
-
-Promote sustainability awareness
-
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Planned improvements:
 
-📷 Image-based classification using Computer Vision
+* 📷 Image-based classification using Computer Vision
+* 📍 Location-based municipal waste rules
+* 📚 Full RAG pipeline with waste policy documents
+* 🌐 Multi-language support (Tamil / Hindi / English)
+* 📱 Mobile-friendly deployment
 
-📍 Location-based municipal waste rules
-
-📚 Full RAG pipeline with waste policy documents
-
-🌐 Multi-language support (Tamil / Hindi / English)
-
-📱 Mobile-friendly deployment
+```
+```
