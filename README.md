@@ -104,25 +104,26 @@ Structured Output (Category + Bin + Tips)
 History + Analytics + CSV Download
 
 ````md
-# ♻️ Smart Waste Segregation Assistant  
-### IBM Granite + Ollama + Streamlit | SDG 12 Sustainability Project
+
+♻️ Smart Waste Segregation Assistant
+ IBM Granite + Ollama + Streamlit | SDG 12 Sustainability Project
 
 ---
 
-## 🛠️ Tech Stack
-- **IBM Granite (granite4)**
-- **Ollama (Local inference)**
-- **Streamlit (UI)**
-- **Python**
-- **Requests**
-- **Pandas**
-- **Matplotlib**
+ 🛠️ Tech Stack
+- IBM Granite (granite4)
+- Ollama (Local inference)
+- Streamlit (UI)
+- Python
+- Requests
+-Pandas
+- Matplotlib
 
 ---
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
-### ✅ 1) Install Ollama
+✅ 1) Install Ollama
 Download and install Ollama.
 
 Check:
