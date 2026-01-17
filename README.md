@@ -102,3 +102,117 @@ IBM Granite Model (granite4)
 Structured Output (Category + Bin + Tips)
         ↓
 History + Analytics + CSV Download
+
+# ♻️ Smart Waste Segregation Assistant  
+### IBM Granite + Ollama + Streamlit | SDG 12 Sustainability Project
+
+---
+
+## 🛠️ Tech Stack
+- **IBM Granite (granite4)**
+- **Ollama (Local inference)**
+- **Streamlit (UI)**
+- **Python**
+- **Requests**
+- **Pandas**
+- **Matplotlib**
+
+---
+
+## ⚙️ Installation & Setup
+
+### ✅ 1) Install Ollama
+Download and install Ollama.
+
+Check:
+```bash
+ollama --version
+
+
+✅ 2) Download Granite Model
+ollama pull granite4
+
+
+Verify:
+
+ollama list
+
+✅ 3) Install Dependencies
+pip install -r requirements.txt
+
+✅ 4) Run the App
+streamlit run app.py
+
+🧪 Example Inputs
+
+Try these items in the UI:
+
+banana peel
+
+plastic bottle
+
+chips packet
+
+used mask
+
+battery
+
+medicine strip
+
+tube light
+
+old mobile phone
+
+broken glass
+
+cardboard
+
+📌 Sample Output
+Category: Wet Waste
+Bin: Green
+Recyclable: No
+Instruction: Place the banana peel in the green bin for composting.
+Tip: Composting reduces landfill waste and methane emissions.
+Confidence: High
+
+🛡️ Responsible AI Considerations
+
+This project follows responsible AI practices:
+
+🔒 Privacy: No personal user data is collected
+
+🔍 Transparency: Clear category + bin mapping is provided
+
+⚠️ Safety: Hazardous and e-waste include safe handling instructions
+
+📍 Limitations: Local disposal rules may vary; low confidence suggests checking municipal rules
+
+⚖️ Fairness: Outputs are general and do not target any group unfairly
+
+📈 Expected Impact
+
+If used in homes/hostels/campuses, this assistant can:
+
+Improve correct waste segregation habits
+
+Increase recycling efficiency
+
+Reduce landfill waste and pollution
+
+Improve sanitation worker safety
+
+Promote sustainability awareness
+
+🚀 Future Enhancements
+
+Planned improvements:
+
+📷 Image-based classification using Computer Vision
+
+📍 Location-based municipal waste rules
+
+📚 Full RAG pipeline with waste policy documents
+
+🌐 Multi-language support (Tamil / Hindi / English)
+
+📱 Mobile-friendly deployment
