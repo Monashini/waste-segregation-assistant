@@ -229,7 +229,18 @@ Planned improvements:
 
 ```
 ```
+## 📷 Screenshots
+
+### 🔹 S1
+![S1](s1.PNG)
+
+### 🔹 S2
+![S2](s2.PNG)
+
+### 🔹 S3
+![S3](s3.PNG)
+
+
 
 Author,
-
 Monashini S
